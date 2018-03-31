@@ -1,14 +1,30 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image, Dimensions, Button, TouchableOpacity, TextInput} from 'react-native';
 import theme from '../theme.js';
+import ImagePicker from 'react-native-image-crop-picker';
+import {connect} from 'react-redux';
+import {toChooseStory, postStory, skipStory, joinStory, uploadPhoto} from '../states/today-actions.js';
 
-export default class WritePost extends React.Component {
+class WritePost extends React.Component {
+  onPress(){
+    ImagePicker.openPicker({
+      width: 300,
+      height: 400,
+      cropping: true
+    }).then(image => {
+      console.log(images);
+      this.props.dispatch(uploadPhoto(image.path));
+    }).catch(err => {
+        alert('error');
+        alert(JSON.stringify(err))
+    });
+  }
 
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.imageBlock}>
-          <Button title={"Upload Photo"} style={styles.btn} color={theme.themeColorDark} />
+          {this.props.photo!='None'?<Text>this.props.photo</Text>:<Button title={"Upload Photo"} style={styles.btn} color={theme.themeColorDark} onPress={this.onPress} />}
         </View>
         <View style={styles.article}>
         <TextInput
@@ -19,7 +35,7 @@ export default class WritePost extends React.Component {
         </View>
         <View style={styles.buttonsPanel}>
           <TouchableOpacity style={styles.btn}>
-              <Text style={{'color': '#F9A602'}}>Post</Text>
+              <Text style={{'color': '#F9A602'}} onPress={() => this.props.dispatch(toChooseStory())}>Post</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -68,3 +84,7 @@ const styles = StyleSheet.create({
 
   }
 });
+
+export default connect((state, ownProps) => ({
+    ...state.today,
+}))(WritePost);

@@ -1,34 +1,25 @@
 import React from 'react';
-import {StyleSheet, ScrollView, View, Text, Image, Row, ImageBackground, TouchableOpacity, Modal} from 'react-native';
+import {StyleSheet, ScrollView, View, Text, Image, Row, ImageBackground, TouchableOpacity} from 'react-native';
 import theme from '../theme.js';
 import {connect} from 'react-redux';
 import {seeUnfinished, seeFinished} from '../states/storyBoard-actions.js';
-import Story from './Story.js'
 
-class StoryBoard extends React.Component {
+
+class ProfilePage extends React.Component {
   static navigationOptions = {
     title: "Story Board",
   };
 
   render() {
+
     return (
       <View style={styles.container}>
-        <Modal
-           animationType="slide"
-           transparent={false}
-           visible={this.props.screenMode=='unFinishedList'||this.props.screenMode=='finishedList'}
-           onRequestClose={() => {
-             alert('Modal has been closed.');
-           }}>
-          <Story />
-
-        </Modal>
         <View style={styles.profile}>
           <View style={styles.profileHeader}>
             <ImageBackground source={require('../images/profile-header-background.png')} style={styles.profileBackgroundImage}>
               <View style={styles.profileName}>
                   <View style={ styles.loginForm }>
-                      <Text style={styles.profileNameText}>Leeeee</Text>
+                      <Text style={styles.profileNameText}>Leeeeena</Text>
                   </View>
               </View>
               <View style={styles.profileNameEmpty}></View>
@@ -84,6 +75,7 @@ class StoryBoard extends React.Component {
           </ScrollView>
         </View>
       </View>
+
     );
   }
 }
@@ -245,4 +237,4 @@ const styles = StyleSheet.create({
 
 export default connect((state, ownProps) => ({
     ...state.storyBoard,
-}))(StoryBoard);
+}))(ProfilePage);

@@ -14,6 +14,9 @@ import {Provider, connect} from 'react-redux';
 import StoryBoard from './components/StoryBoard.js';
 import Main from './components/Main.js';
 
+import {today} from './states/today-reducers.js';
+import {storyBoard} from './states/storyBoard-reducers.js';
+
 import {TabNavigator, NavigationActions, addNavigationHelpers} from 'react-navigation';
 import {
   createReduxBoundAddListener,
@@ -87,7 +90,9 @@ const addListener = createReduxBoundAddListener("root");
 
 // Create Redux store
 const store = createStore(combineReducers({
-    nav
+    nav,
+    today,
+    storyBoard
 }), compose(applyMiddleware(reactNavigationMiddleware, thunkMiddleware, loggerMiddleware)));
 
 export default class App extends React.Component {

@@ -1,29 +1,30 @@
 import React from 'react';
 import {StyleSheet, Text, View, Button, Dimensions, Image, ScrollView} from 'react-native';
 import theme from '../theme.js';
-import Story from './Story.js'
-import WritePost from './WritePost.js'
-import ChooseStoryPage from './ChooseStoryPage.js'
-import ClockPage from './ClockPage.js'
+
+
 import {connect} from 'react-redux';
 import {toChooseStory, postStory, skipStory, joinStory} from '../states/today-actions.js';
 
-class Main extends React.Component {
-  static navigationOptions = {
-    title: "Today's Story",
-  };
-
+class ClockPage extends React.Component {
 
 
 
   render() {
 
     return (
-        <ScrollView>
-          {this.props.screenMode=='startJourney'?<ClockPage/>:<View></View>}
-          {this.props.screenMode=='chooseStory'||this.props.screenMode=='postStory'?<ChooseStoryPage/>:<View></View>}
-          {this.props.screenMode=='postStory'?<WritePost/>:<View></View>}
-        </ScrollView>
+      <View style={styles.container}>
+        <View style={styles.clockPanel}>
+          <View style={styles.imageBlock}>
+            <Image style={{height:300, width: 300}} source={require('../images/rocket-2.png')} />
+          </View>
+        </View>
+        <View style={styles.buttonPanel}>
+          <View style={styles.imageBlock}>
+            <Button title={"Start Your Jouney!"} style={styles.btn} color={theme.themeColorDark} onPress={() => this.props.dispatch(toChooseStory())}/>
+          </View>
+        </View>
+      </View>
     );
   }
 }
@@ -31,17 +32,19 @@ class Main extends React.Component {
 const size = 16;
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     flexDirection: 'column',
   },
   clockPanel: {
-    flex: 2,
+    marginTop: 50,
+    flexGrow: 2,
     paddingTop: 20,
     //padding: 30
     //margin: 30
   },
   buttonPanel: {
-    flex: 1
+    flexGrow: 1,
+    paddingTop: 50,
   },
   imageBlock: {
     flex: 1,
@@ -52,6 +55,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   btn: {
+
     justifyContent: 'center',
     alignItems: 'center',
   }
@@ -59,4 +63,4 @@ const styles = StyleSheet.create({
 
 export default connect((state, ownProps) => ({
     ...state.today,
-}))(Main);
+}))(ClockPage);
