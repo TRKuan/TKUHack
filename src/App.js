@@ -12,7 +12,7 @@ import thunkMiddleware from 'redux-thunk';
 import loggerMiddleware from 'redux-logger';
 import {Provider, connect} from 'react-redux';
 import StoryBoard from './components/StoryBoard.js';
-import StoryScreen from './components/StoryScreen.js';
+import Main from './components/Main.js';
 
 import {TabNavigator, NavigationActions, addNavigationHelpers} from 'react-navigation';
 import {
@@ -21,7 +21,7 @@ import {
 } from 'react-navigation-redux-helpers';
 
 const AppNavigator = TabNavigator({
-    TodayStory: {screen: StoryScreen},
+    Main: {screen: Main},
     StoryBoard: {screen: StoryBoard}
 },
 {
@@ -36,7 +36,7 @@ const AppNavigator = TabNavigator({
         },
         upperCaseLabel: false
     },
-    initialRouteName: 'StoryBoard'
+    initialRouteName: 'Main'
 });
 
 class AppWithStyleAndNavigator extends React.Component {
@@ -72,7 +72,7 @@ const AppWithNavState = connect(state => ({
 }))(AppWithStyleAndNavigator);
 
 // Nav reducer
-const initialState = AppNavigator.router.getStateForAction(NavigationActions.navigate({routeName: 'TodayStory'}));
+const initialState = AppNavigator.router.getStateForAction(NavigationActions.navigate({routeName: 'Main'}));
 const nav = (state = initialState, action) => {
     const nextState = AppNavigator.router.getStateForAction(action, state);
     return nextState || state;
