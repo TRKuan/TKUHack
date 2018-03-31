@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_scale.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_scale.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_cross.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_cross.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_crop.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_crop.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_reset.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_reset.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_done.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_done.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_angle.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_angle.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_rotate.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_rotate.png"
+    },
+    {
+        "merged": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ucrop_ic_next.png",
+        "source": "D:\\TKUHack\\TKUHack\\android\\app\\build\\intermediates\\exploded-aar\\com.github.yalantis\\ucrop\\2.2.1-native\\res\\drawable-ldpi-v4\\ucrop_ic_next.png"
+    }
+]

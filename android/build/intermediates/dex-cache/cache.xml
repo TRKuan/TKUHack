@@ -3,192 +3,336 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jar="C:\Users\NHTsai\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_816bc1fb11db9e3d5c5965cde760ed56b51c7f7a.jar" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_c55fb8776139ce20a5ae96f5ef82daff9aa6fe78.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_f54dff3b2bea7274893aecb8cc6ff916a4a928c6.jar" />
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_5efb149c9c7ecf62b0b913a6d9daa4ad2e7e97e7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.0\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_1e2f8dd5ec357f820ebbecd8b413dfd2b05317ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_37aecaf12e5d2744eef85f07b29e242bf41e93f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_8d2713cdbe74ec5ab3eb74ba211116477df81a91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_fa67427c1606d7902fd6dec7f3a173e172a30e18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_27218793040f5159036c148f11e7b78e2d0da9bf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_3f0ab816dfe51a79b1182abb069f808ac42c2654.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_49d54f0e168cbd0ba6facb3e2d9858158c86b60c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_a1e474c7b207388ad83a1b133f8450b1d4f594d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_134015f701c7d2246351b0b2b1713d707d072eff.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_d78f1808e4c127732309708ee0bf5349d757f559.jar" />
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_15ac5f576aaeee07597a589bf73e8d0feaa6c39f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_11b794ddae2f910cce1343206ccc5a6135f7c222.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_8b9d58c94b23a134dbffd7396d4f14e600f03ce6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_8a07ee6f226dc005cbb99fe7f8f42fb5f1f18053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.0\2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1\rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\rxjava-2.1.0_c6a881cb771d7ed39106cf281a4e299c418a754a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_f1ec03b147f398314115d099e239064748d745d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_a04085a840adec380f72a305893c071f32445218.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.0_a89881a4cce99612cf8a9a9e700cf71ae7385720.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_f6a78fe890ea5a553e8724daf1a27c3c4d6a03b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_d611cfd09b5c1bab7e41f501107414b6532d11ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.github.yalantis\ucrop\2.2.1-native\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e492787f157c13839c02e0b7293871dbaed9911">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.github.yalantis-ucrop-2.2.1-native_d6c0be0f10eada4bd9c9c79216a41c76b1993adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_85239c6f21ca338b081a495963cfa9897d8b0132.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_86b51044f714321fe185d1c753598c72d430ed84.jar" />
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_3542c3419b161d7081aa1bf1b1108988b7667cf9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_d1fbe0e28510e0b845ed91818b57bfb932bb0512.jar" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_9643eb15d152019fe3d6fc4d026623347606cdce.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_0cd2b24de4eb2ecb42b9034507e3d271d3001616.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_4f83aa4d6a831ae91af0864607affbe03ed19654.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9bc5c658348a96fc5110ac2a8785920bb9417c07">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.0_eddd4435e7e8fcef492ce970e6dd263d05a6b33f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_b2521d7da929affd4b2c75e44c24da3991869376.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\TR\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_45c40015904f3029530b9c61ef834753b3a7bdca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_7758e2dbcb053038211617a9fecaa88f709abe0c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Hackathon\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="D:\Hackathon\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_53148ffd14146bfe0de41f9480dc566e88deeb51.jar" />
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_7b9b7f557ad847a582ac066e464ab4f3c85ec545.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3c389e9121edaf6d469db9e7793ea664e18518e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9bc5c658348a96fc5110ac2a8785920bb9417c07">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.54.0_cc12665f3dc00c3bfa3a047540f1346f1250f786.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_49269eeb51fa6987fae639a4ee63ea55645d2f60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_36380a1e32fd53c7dabd2e66ccafb1892d97a23e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_95170e75bb97b4d97fcb66d850e2cb6c34c30450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_e83fa534d5d369b4defd44c0c28534dbc20c893b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_243d4f73b0172a0c45fe75888d3dfdb599ba32ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\TKUHack\react-native-image-crop-picker\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279d62e02da8f3bedd183bebc1a466abee462479">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\TKUHack-react-native-image-crop-picker-unspecified_4579c31e5e72bb7ae5c6a324f6566a797e8d4262.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_21186736bf799e637e841cd2041d9ee5ac305eaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.54.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_ac2bd7e6b3ddeaee972d331c12a6d3741117bce1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_30b15f4c391574ced91c63510ffb11065a8d0d40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\id.zelory\compressor\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b1555196d65ffa1174f6f49efb2f278905f537a">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\id.zelory-compressor-2.1.0_34e1ced90843efcb196367e2dd4368bfc5501462.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_eecc23f52ac4c8c19a8e290223269c97bab7305d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_48d234b796ff48e0669b6ca1b21ab74ac9f840fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_a2d4bc56a6177bf8611475d5bb47f129db14e773.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_0677644e49e60fc5464b163a59760b2fdc4f1158.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_040e327c986c0d4f4043111286e10848c88c3447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ec6c1e2730f4f2f3a1df32ecd393cc6bcd581f2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\TKUHack\TKUHack\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_f76c2bec3fcc794c8eff482b34fcac4ce02049f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NHTsai\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\TKUHack\TKUHack\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_40289e88f47558181fff2037f876be8ab86ee314.jar" />
     </item>
 
 </items>

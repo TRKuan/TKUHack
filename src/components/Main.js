@@ -3,11 +3,21 @@ import {StyleSheet, Text, View, Button, Dimensions, Image} from 'react-native';
 import theme from '../theme.js';
 import Story from './Story.js'
 import WritePost from './WritePost.js'
-
+import ImagePicker from 'react-native-image-crop-picker';
 export default class Main extends React.Component {
   static navigationOptions = {
     title: "Today's Story",
   };
+
+  componentDidMount(){
+    ImagePicker.openPicker({
+      width: 300,
+      height: 400,
+      cropping: true
+    }).then(image => {
+      console.log(image);
+    });
+  }
 
 
   render() {
@@ -32,7 +42,7 @@ export default class Main extends React.Component {
     );
   }
 }
- 
+
 const size = 16;
 const styles = StyleSheet.create({
   container: {
