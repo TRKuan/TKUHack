@@ -1,7 +1,6 @@
 import React from 'react';
-import {StyleSheet, ScrollView, View, Text, Image, Row, ImageBackground} from 'react-native';
+import {StyleSheet, ScrollView, View, Text, Image, Row, ImageBackground, TouchableOpacity} from 'react-native';
 import theme from '../theme.js';
-import StoryBoardItem from './StoryBoardItem.js'
 
 export default class StoryBoard extends React.Component {
   static navigationOptions = {
@@ -9,13 +8,6 @@ export default class StoryBoard extends React.Component {
   };
 
   render() {
-    let tmp = [
-      <View>
-        <StoryBoardItem />
-        <StoryBoardItem />
-        <StoryBoardItem />
-      </View>
-    ];
     return (
       <View style={styles.container}>
 
@@ -47,9 +39,9 @@ export default class StoryBoard extends React.Component {
               <Text>Unfinished Stories</Text>
             </View>
             <View style={styles.unfinishedEmpty}></View>
-            <View style={styles.unfinishedSeeAll}>
-              <Text style={['fontSize':15]}>See All</Text>
-            </View>
+            <TouchableOpacity style={styles.unfinishedSeeAll}>
+                <Text style={{'color': '#F9A602'}}>See All</Text>
+            </TouchableOpacity>
           </View>
           <ScrollView horizontal contentContainerStyle={styles.storiesScrollContent} style={styles.unfinishedStoriesScroll}>
             <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
@@ -66,9 +58,9 @@ export default class StoryBoard extends React.Component {
               <Text>Finished Stories</Text>
             </View>
             <View style={styles.finishedEmpty}></View>
-            <View style={styles.finishedSeeAll}>
-              <Text>See All</Text>
-            </View>
+            <TouchableOpacity style={styles.unfinishedSeeAll}>
+                <Text style={{'color': '#F9A602'}}>See All</Text>
+            </TouchableOpacity>
           </View>
           <ScrollView horizontal contentContainerStyle={styles.storiesScrollContent} style={styles.finishedStoriesScroll}>
           <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
@@ -107,7 +99,7 @@ const styles = StyleSheet.create({
   profileBackgroundImage: {
     flex: 1,
     flexDirection: 'row',
-    resizeMode: 'cover', // or 'stretch',
+    //resizeMode: 'cover', // or 'stretch',
     justifyContent: 'center',
     alignItems: 'center'
   },
@@ -136,7 +128,7 @@ const styles = StyleSheet.create({
     height: 80,
     borderRadius: 50,
     borderWidth: 3,
-    borderColor: theme.themeColorDark
+    borderColor: theme.themeColorLight
   },
   profileInfo: {
     flex: 1,

@@ -19,6 +19,6 @@ export default class Story extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: theme.themeColorLight,
+    backgroundColor: '#DCDCDC',
   }
 });
