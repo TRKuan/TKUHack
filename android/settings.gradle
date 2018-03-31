@@ -1,0 +1,3 @@
+rootProject.name = 'TKUHack'
+
+include ':app'
