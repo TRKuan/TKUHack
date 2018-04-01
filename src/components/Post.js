@@ -8,7 +8,7 @@ export default class Post extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.imageBlock}>
-          <Image style={{height:'100%', width: '100%'}} source={require('../images/Lenna.jpg')} />
+          <Image style={{height:'100%', width: '100%'}} source={this.props.photo} />
         </View>
         <View style={styles.article}>
           <Text style={styles.articalContent}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Text>

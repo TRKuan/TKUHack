@@ -61,6 +61,9 @@ class StoryBoard extends React.Component {
             <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
             <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
             <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+
           </ScrollView>
         </View>
 
@@ -75,6 +78,8 @@ class StoryBoard extends React.Component {
             </TouchableOpacity>
           </View>
           <ScrollView horizontal contentContainerStyle={styles.storiesScrollContent} style={styles.finishedStoriesScroll}>
+          <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
+          <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
           <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
           <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
           <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
