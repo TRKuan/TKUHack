@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, ScrollView, View, Text, Image, Row, ImageBackground, TouchableOpacity, Modal} from 'react-native';
 import theme from '../theme.js';
 import {connect} from 'react-redux';
-import {seeUnfinished, seeFinished} from '../states/storyBoard-actions.js';
+import {seeUnfinished, seeFinished, toProfile} from '../states/storyBoard-actions.js';
 import Story from './Story.js'
 
 class StoryBoard extends React.Component {
@@ -18,7 +18,7 @@ class StoryBoard extends React.Component {
            transparent={false}
            visible={this.props.screenMode=='unFinishedList'||this.props.screenMode=='finishedList'}
            onRequestClose={() => {
-             alert('Modal has been closed.');
+             this.props.dispatch(toProfile())
            }}>
           <Story />
 
@@ -56,11 +56,11 @@ class StoryBoard extends React.Component {
             </TouchableOpacity>
           </View>
           <ScrollView horizontal contentContainerStyle={styles.storiesScrollContent} style={styles.unfinishedStoriesScroll}>
-            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
-            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
-            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
-            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
-            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
+            <View style={styles.previewImageContainer}><Image style={styles.previewImage}source={require('../images/Lenna_grey.jpg')} /></View>
           </ScrollView>
         </View>
 

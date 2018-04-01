@@ -15,8 +15,9 @@ class WritePost extends React.Component {
       console.log(images);
       this.props.dispatch(uploadPhoto(image.path));
     }).catch(err => {
-        alert('error');
-        alert(JSON.stringify(err))
+        //alert('error');
+        //alert(JSON.stringify(err))
+        
     });
   }
 
@@ -28,7 +29,7 @@ class WritePost extends React.Component {
         </View>
         <View style={styles.article}>
         <TextInput
-          style={{height: 150, borderColor: 'gray', borderWidth: 1}} multiline = {true} editable = {true}  numberOfLines = {10}
+          style={{height: 150, borderColor: 'grey', borderWidth: 1}} multiline = {true} editable = {true}  numberOfLines = {10}
           //onChangeText={(text) => console.log(text)}
           //value={}
         />

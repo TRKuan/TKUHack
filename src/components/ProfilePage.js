@@ -19,7 +19,7 @@ class ProfilePage extends React.Component {
             <ImageBackground source={require('../images/profile-header-background.png')} style={styles.profileBackgroundImage}>
               <View style={styles.profileName}>
                   <View style={ styles.loginForm }>
-                      <Text style={styles.profileNameText}>Leeeeena</Text>
+                      <Text style={styles.profileNameText}>Leeena</Text>
                   </View>
               </View>
               <View style={styles.profileNameEmpty}></View>
